@@ -1,0 +1,43 @@
+.navbar {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Substitua <weight> pelo valor desejado, como por exemplo, 400 */
+  font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#258997;
+    height: 8vh;
+  }
+  
+  .navbar a {
+
+    color: white;
+    
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  #Home,
+  #ods,
+  #Abtme {
+
+    padding: 20px;
+  }
+ nav{
+    list-style: none;
+    display: flex;
+  }
+  li{
+    letter-spacing: 1px;
+    margin-left: 15px;
+  } 
+  
+ul{
+  list-style: none;
+  display: flex;
+}
+
+  

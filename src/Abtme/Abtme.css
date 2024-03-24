@@ -1,0 +1,43 @@
+
+.sobre-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+  }
+  
+
+  .sobre-title {
+    font-size: 30px; 
+    color: #333; 
+  }
+  
+
+  .sobre-description {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* Substitua <weight> pelo valor desejado, como por exemplo, 400 */
+    font-style: normal;
+    font-size: 20px; 
+    line-height: 1.5; 
+    color: #666; 
+  }
+  
+
+  .sobre-icons {
+    justify-content: center;
+    align-items: center;
+    padding:0 30% 26px;;
+    margin-top: 20px; 
+  }
+  .sobre-icon-link {
+    display: inline-block; 
+    margin-right: 70px;
+    color: #333; 
+    text-decoration: none; 
+  }
+  
+  /* Estilos para os links de ícones ao passar o mouse sobre eles */
+  .sobre-icon-link:hover {
+    color: #007bff; /* cor do texto ao passar o mouse */
+  }
+  
